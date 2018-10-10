@@ -10,7 +10,6 @@ import java.util.Arrays;
 public class ZuulApplication {
 
     public static void main(String[] args) {
-        Arrays.asList(1, 2).forEach(System.out::println);
         new SpringApplicationBuilder(ZuulApplication.class).web(true).run(args);
     }
 }
